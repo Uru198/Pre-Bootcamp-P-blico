@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Github Blocks</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+        <div class="h1">GitHub Blocks</div>
+        
+        <div class="container">
+                <div class="block1">
+                        <div><img class="image" src="css/image/1.png " alt="uno"></div>
+                        <div><img class="image" src="css/image/2.gif" alt="dos"></div>
+                        <div><img class="image" src="css/image/3.gif" alt="tres"></div>
+                </div>
+                <div class="block2">
+                        <div><img class="image" src="css/image/4.png" alt="cuatro"></div>
+                        <div><img class="image" src="css/image/5.jpg" alt="cinco"></div>
+                </div>
+                <div class="block3">
+                        <div><img class="image" src="css/image/6jpg.jpg" alt="seis"></div>
+                        <div><img class="image" src="css/image/7.jpg" alt="siete"></div>
+                        <div><img class="image" src="css/image/8.jpg" alt="ocho"></div>
+                </div>
+                <p>Imagen From <a href="https://octodex-github-com.translate.goog/?_x_tr_sl=de&_x_tr_tl=es&_x_tr_hl=es">GitHub Octodex</a></p>
+        </div>
+
+</body> 
+</html>
+
+.h1 {
+        text-align: center;
+        font-size: 80px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(227, 14, 14);
+
+}
+
+p {
+        font-size: 40px;
+        text-align: center;
+}
+
+.container {
+        width: 1400px;
+        height: 1000px;
+        margin: 0px auto;
+        margin-bottom: 300px;
+        padding: 100px 300px 100px 300px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+       
+         
+          
+}
+
+.image {
+height: 100%;
+        
+}
+
+.block1, .block2, .block3 {
+        
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        height: 300px;
+        margin: 25px;
+        padding: 10px;
+  
+        
+}
+
+.block1 {
+        background-color: rgb(77, 135, 77);
+}
+
+.block2 {
+        background-color: rgb(93, 132, 201);
+}
+
+.block3 {
+        background-color: rgb(197, 92, 226);
+}
+
+
