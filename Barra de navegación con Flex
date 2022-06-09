@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barra de navegacion</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Quicksand:wght@700&family=Roboto&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="nav">
+                <div class="nav-title">Profile</div>
+                <ul class="nav-links">
+                    <li><a href="#" class="uno">Home</a></li>
+                        <li><a href="#" class="active">My Profile</a></li>
+                        <li><a href="#" class="uno">Find Connections</a></li>
+                    <li><button class="btn"> Sign Out</button></li>
+                </ul>
+        </div>
+                               
+</body>
+</html>
+
+.nav {
+        border: 2px solid black;
+        background-color: rgb(95, 94, 94);
+        display: flex;
+        height: 40px;
+        width: 1000px;
+}
+
+.nav-links, a, button {
+
+    margin: auto;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+
+}
+
+.nav-title {
+     
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    flex: 1;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: white;
+
+}
+
+.btn {
+
+    padding: 1px 10px 1px 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(14, 156, 188);
+    box-shadow: 3px 5px black;
+    
+}
+
+.active{
+
+    color: white;
+}
+
+.uno {
+    color: rgb(195, 198, 192);
+}
+
+
+
+
